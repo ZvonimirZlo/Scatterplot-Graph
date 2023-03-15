@@ -1,0 +1,24 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+svg{
+    background-color: rgb(229, 229, 241);
+}
+#tooltip{
+    visibility: hidden;
+    width: auto;
+    height: auto;
+}
+#title{
+    font-size: 18;
+    text-transform: uppercase;
+    text-align: center;
+}
+.dot {
+    stroke: #000;
+    opacity: 0.8;
+  }
